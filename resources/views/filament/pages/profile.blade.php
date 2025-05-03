@@ -1,0 +1,10 @@
+<x-filament-panels::page>
+    <form wire:submit.prevent="save">
+        {{ $this->form }}
+        <div class="pt-4">
+            <x-filament::button type="submit">
+                Save Profile
+            </x-filament::button>
+        </div>
+    </form>
+</x-filament-panels::page>
